@@ -45,3 +45,7 @@ values. The Meeru Pass repository checks that the apps keep opening the same dat
 
 The format and this program have not been audited yet. Found a mistake, or something the document
 doesn't say clearly enough to implement it? Please open an issue.
+
+## License
+
+[Apache License 2.0](LICENSE), for both the format document and the decryptor. Copyright 2026 Meeru Labs.
