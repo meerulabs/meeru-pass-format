@@ -1,0 +1,66 @@
+{
+  "028e771ad8d35e336a081dca7d04caf3": {
+    "archived": false,
+    "created_at": 1790000100,
+    "favorite": false,
+    "kind": {
+      "other": "crypto_wallet"
+    },
+    "notes": "abandon abandon abandon … about",
+    "title": "Sui wallet",
+    "updated_at": 1790000100
+  },
+  "766ae475dd2ffd97370e7ab447e0f2d0": {
+    "archived": false,
+    "created_at": 1790000200,
+    "favorite": false,
+    "kind": "secure_note",
+    "notes": "line 1\nline 2",
+    "title": "Old note",
+    "trashed_at": 1790000300,
+    "updated_at": 1790000200
+  },
+  "9e4c0de08f6754dd23ba6cc917073303": {
+    "archived": false,
+    "created_at": 1790000000,
+    "favorite": true,
+    "fields": [
+      {
+        "concealed": true,
+        "label": "Recovery code 1",
+        "section": "Recovery codes",
+        "value": "4f2a-9c1d"
+      },
+      {
+        "concealed": false,
+        "file": {
+          "id": "c8d2524b9492e0168540da5f21e5c0b8",
+          "key": "16d33a3b84f47c0b161116a540d0683e04d6089f359c2631d5bbd92632dbe8d5",
+          "mime": "application/octet-stream",
+          "name": "recovery-codes.bin",
+          "size": 31154
+        },
+        "label": "recovery-codes.bin",
+        "value": ""
+      }
+    ],
+    "kind": "login",
+    "password": "g7#Pq!2vX9r$Lm4w",
+    "password_history": [
+      {
+        "changed_at": 1780000000,
+        "password": "old-one"
+      }
+    ],
+    "tags": [
+      "开发"
+    ],
+    "title": "GitHub",
+    "totp": "otpauth://totp/GitHub?secret=GEZDGNBVGY3TQOJQ",
+    "updated_at": 1790000000,
+    "urls": [
+      "https://github.com"
+    ],
+    "username": "octo@example.com"
+  }
+}

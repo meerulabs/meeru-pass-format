@@ -1,0 +1,13 @@
+name: test
+on: [push, pull_request]
+jobs:
+  decrypt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r decrypt/requirements.txt
+      - run: python -m unittest -v test_meeru_decrypt
+        working-directory: decrypt
